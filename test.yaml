@@ -1,4 +1,5 @@
 - name: return ls from root
+  hosts: all
   vars:
     directory: /
 
