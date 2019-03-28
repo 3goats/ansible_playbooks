@@ -1,4 +1,4 @@
-- hosts: all
+hosts: all
 vars:
   directory: /path/to/dir
 
@@ -9,3 +9,4 @@ tasks:
 
   - debug: var={{item}}
     with_items: dir_out.stdout_lines
+    
