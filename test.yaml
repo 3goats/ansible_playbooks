@@ -1,6 +1,6 @@
 hosts: all
 vars:
-  directory: /path/to/dir
+  directory: /
 
 tasks:
 
